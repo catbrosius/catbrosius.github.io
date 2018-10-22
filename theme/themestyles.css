@@ -1,0 +1,24 @@
+header {
+    background-color: rgb(208, 242, 255);
+    text-align: center;
+}
+header p {
+    font-weight: bold;
+    color: rgb(29, 29, 94);
+}
+.byline {
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+}
+main {
+    background-color: white;
+}
+figure img.imageright {
+    float: right;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
