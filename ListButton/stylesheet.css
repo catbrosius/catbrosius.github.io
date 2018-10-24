@@ -1,16 +1,39 @@
+aside {
+    border: 1px  rgb(71, 47, 87) solid;
+    border-radius: 10px; 
+    font-size: 120%;
+    font-style: italic;
+    float: right;
+    background-color: rgb(220, 255, 255);
+    width: 33%;
+    padding: 5px;
+    margin-left: 8px;
+    margin-right: 8px:
+}
 button {
-    background-color: rgb(149, 140, 160);
+    background-color: rgb(187, 184, 190);
     border: thin black solid outset;
     color: black;
     text-align: center;    
     font-size: 16px;
 }
+button.btn-padding {
+    padding: 25px;
+    border: 15px rgb(71, 47, 87) solid;
+    border-radius: 30px;
+}
+button.btn-padding:hover {
+    background-color: rgb(220, 255, 255);
+}
+button.btn-margin {
+    margin: 25px;
+}
 footer {
-    background-color: azure;
+    background-color: rgb(220, 255, 255);
     text-align: center;
 }
 header {
-    background-color: rgb(244, 215, 255); 
+    background-color: rgb(248, 233, 255); 
     text-align: center;   
 }
 header p {
@@ -21,8 +44,8 @@ h1#new-point {
     text-align: center;
 }
 main {
-    background-color: rgb(66, 66, 136);
-    color: white;
+    background-color: white;
+    color: black;
 }
 .byline {
     font-style: italic;
@@ -33,9 +56,13 @@ img#list-button-utah {
     height: 100px;
     float: left;
 }
+div#margin-div {
+    border: 2px black solid;
+    display: inline-block;
+}
 nav {        
-    background-color: aliceblue;
-    border: 1px green solid;
+    background-color:   rgb(220, 255, 255);
+    border: 1px  rgb(71, 47, 87) solid;
     padding: 8px;
     margin: -1px 0px 0px 0px;
 }
