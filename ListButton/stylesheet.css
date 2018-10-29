@@ -56,8 +56,8 @@ img#list-button-utah {
     height: 100px;
     float: left;
 }
-div#margin-div {
-    border: 2px black solid;
+.elf-div-border {
+    border: 1px black solid;
     display: inline-block;
 }
 nav {        

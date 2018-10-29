@@ -1,18 +1,11 @@
-header {
-    background-color: rgb(208, 242, 255);
-    text-align: center;
-}
-header p {
-    font-weight: bold;
-    color: rgb(29, 29, 94);
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 .byline {
     font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 80%;
-}
-main {
-    background-color: white;
 }
 figure img.imageright {
     float: right;
@@ -21,4 +14,54 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
+}
+footer a {
+    color: rgb(208, 242, 255);
+}
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+footer li {
+    display: inline;
+    padding: 8px;    
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif
+}
+header {
+    background-color: white;
+    border: 6px black solid;
+    text-align: center;
+}
+header p {
+    font-weight: bold;
+    color: rgb(29, 29, 94);
+}
+main {
+    background-color: white;
+}
+nav {        
+    background-color: black;
+    padding: 10px;
+    margin: 8px 0px 0px 0px;
+}
+nav a {
+    color: rgb(208, 242, 255);
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav li {
+    display: inline;
+    padding: 8px;    
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
 }
