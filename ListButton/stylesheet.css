@@ -12,10 +12,11 @@ aside {
 }
 button {
     background-color: rgb(187, 184, 190);
-    border: thin black solid outset;
+    border: thin black outset;
     color: black;
     text-align: center;    
     font-size: 16px;
+    padding: 12px;
 }
 button.btn-padding {
     padding: 25px;
