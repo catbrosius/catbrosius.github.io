@@ -6,6 +6,9 @@ footer {
     background-color: rgb(220, 255, 255);
     text-align: center;
 }
+footer ul {
+    list-style-type: none;
+}
 header {
     background-color: rgb(248, 233, 255); 
     text-align: center;   
@@ -13,4 +16,22 @@ header {
 main {
     background-color: white;
     color: black;
+}
+nav {        
+    background-color:   rgb(220, 255, 255);
+    border: 1px  rgb(71, 47, 87) solid;
+    padding: 8px;
+    margin: -1px 0px 0px 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav li {
+    display: inline;
+    padding: 8px;    
 }
