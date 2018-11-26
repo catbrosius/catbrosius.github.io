@@ -1,0 +1,21 @@
+button {
+    background-color: rgb(187, 184, 190);
+    border: 6px rgb(71, 47, 87) outset;
+    color: black;
+    text-align: center;    
+    font-size: 16px;
+    padding: 6px;
+    border-radius: 20px;
+}
+button:hover {
+    background-color: rgb(220, 248, 255);
+}
+input.btn-padding {
+    background-color: rgb(187, 184, 190);
+    border: 6px rgb(71, 47, 87) outset;
+    color: black;
+    text-align: center;    
+    font-size: 16px;
+    padding: 6px;
+    border-radius: 20px;
+}
