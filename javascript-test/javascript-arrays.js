@@ -3,44 +3,42 @@ window.onload = () => {
     const arrays = {
         numbers: [15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5],
         languages: ["Javascript", "HTML", "CSS", "Java", "C#", "Python", "C/C++"],
-        }
-
-        const arrayObjects = {
-            rankedLanguages: [
-                {
-                    language: "Javascript",
-                    rank: 1
-                },
-                {
-                    language: "Java",
-                    rank: 2
-                },
-                {
-                    language: "Python",
-                    rank: 3
-                },
-                {
-                    language: "PHP",
-                    rank: 4
-                },
-                {
-                    language: "C++",
-                    rank: 5
-                },
-                {
-                    language: "C#",
-                    rank: 6
-                },
-                {
-                    language: "Type Script",
-                    rank: 7
-                }
-            ],
-            getLanguageRank: function () {
-                'use strict';
-                return this.language + ' rank: ' + this.rank;
+        rankedLanguages: [
+            {
+                language: "Javascript",
+                rank: 1
+            },
+            {
+                language: "Java",
+                rank: 2
+            },
+            {
+                language: "Python",
+                rank: 3
+            },
+            {
+                language: "PHP",
+                rank: 4
+            },
+            {
+                language: "C++",
+                rank: 5
+            },
+            {
+                language: "C#",
+                rank: 6
+            },
+            {
+                language: "Type Script",
+                rank: 7
+            }
+        ],
+        getLanguageRank: function () {
+            'use strict';
+            return this.language + ' rank: ' + this.rank;
         }
     };
+
 
 
     const showNumbersButton = document.getElementById('numbers-action');
@@ -78,7 +76,7 @@ window.onload = () => {
 
     languageRankButton.onclick = () => {
         const languageRankDisplay = document.getElementById("tech-language-popularity-display");
-        const languageRank = arrayObjects.getLanguageRank();
+        const languageRank = arrays.getLanguageRank();
 
         for (let displayWords of languageRank) {
             const li = document.createElement("li");
