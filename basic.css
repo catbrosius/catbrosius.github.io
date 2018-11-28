@@ -1,6 +1,6 @@
 button {
     background-color: rgb(187, 184, 190);
-    border: 6px rgb(71, 47, 87) outset;
+    border: 6px rgb(53, 47, 87) outset;
     color: black;
     text-align: center;    
     font-size: 16px;
@@ -15,23 +15,34 @@ button:hover {
     font-size: 80%;
 }
 footer {
-    background-color: rgb(220, 255, 255);
+    background-color:  rgb(255, 214, 227);
     text-align: center;
 }
 footer ul {
     list-style-type: none;
 }
+
+h1,
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
 header {
-    background-color: rgb(248, 233, 255); 
-    text-align: center;   
+    background-color: rgb(53, 47, 87); 
+    text-align: center;  
+    font-family: Arial, Helvetica, sans-serif; 
+    color: white;
 }
 main {
     background-color: white;
     color: black;
+    border: 1px  rgb(53, 47, 87) solid;
+    padding: 8px;
 }
 nav {        
-    background-color:   rgb(220, 255, 255);
-    border: 1px  rgb(71, 47, 87) solid;
+    background-color:   rgb(255, 214, 227);
+    border: 1px  rgb(53, 47, 87) solid;
     padding: 8px;
     margin: -1px 0px 0px 0px;
 }
@@ -46,4 +57,12 @@ nav ul {
 nav li {
     display: inline;
     padding: 8px;    
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
 }
