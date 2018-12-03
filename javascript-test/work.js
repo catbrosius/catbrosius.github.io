@@ -34,7 +34,9 @@ var calculator = {
 calculator.operand01 = person.firstName.length;
 calculator.operand02 = person.lastName.length;
 
-calculator.multiply = calculator.operand01 * calculator.operand02;
+calculator.multiply = function () {
+    return calculator.operand01 * calculator.operand02;
+};
 
 divider('Calculator');
 

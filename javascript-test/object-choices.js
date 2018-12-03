@@ -9,13 +9,13 @@ window.onload = () => {
         const simpleObjectDisplay = document.getElementById('simple-object-display');
         simpleObjectDisplay.textContent = sObject;
         
-    }
+    };
     functionObjectButton.onclick = () => {
         const fObject = FunctionObject.sayName();
         const functionObjectDisplay = document.getElementById('function-object-display');
         functionObjectDisplay.textContent = fObject;
         
-    }
+    };
     customClassButton.onclick = () => {
         const customClass = new CustomClass();
         const returnValue = customClass.sayName();
@@ -23,21 +23,25 @@ window.onload = () => {
         const customClassDisplay = document.getElementById('custom-class-display');
         customClassDisplay.textContent = returnValue;
         
-    }
+    };
 }
 
 const simpleObject = {
     sayName: function () {
-        console.log("Simple Object");
+        const content = "Simple Object";
+        console.log(content);
+        return content;
     }
-}
+};
 
 simpleObject.dynamicMethod = console.log("Dynamic Method");
 
 function FunctionObject () {
     FunctionObject.prototype.sayName = () => {
-        console.log('FunctionObject.sayName');
+        const content = 'FunctionObject.sayName';
+        console.log(content);
         privateFunction ();
+        return content;
     };
 }
 
@@ -53,7 +57,7 @@ class CustomClass {
 
     sayName() {
         return "Custom Class";
-    }
+    };
 }
 
 simpleObject.sayName();

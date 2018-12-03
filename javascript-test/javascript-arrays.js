@@ -33,9 +33,9 @@ window.onload = () => {
                 rank: 7
             }
         ],
-        getLanguageRank: function () {
+        getLanguageRank: function (displayWords) {
             'use strict';
-            return this.language + ' rank: ' + this.rank;
+            return displayWords.language + ' rank: ' + displayWords.rank;
         }
     };
 
@@ -76,11 +76,11 @@ window.onload = () => {
 
     languageRankButton.onclick = () => {
         const languageRankDisplay = document.getElementById("tech-language-popularity-display");
-        const languageRank = arrays.getLanguageRank();
+        //const languageRank = arrays.getLanguageRank();
 
-        for (let displayWords of languageRank) {
+        for (let displayWords of arrays.rankedLanguages) {
             const li = document.createElement("li");
-            li.appendChild(document.createTextNode(displayWords));
+            li.appendChild(document.createTextNode(arrays.getLanguageRank(displayWords)));
             languageRankDisplay.appendChild(li);
         }
     }

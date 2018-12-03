@@ -1,11 +1,12 @@
 a {
+    color:  rgb(208, 242, 255);
     font-family: "Arial, Helvetica, sans-serif";
 }
 a img:hover{
     opacity: 0.5;
 }
 aside {
-    border: 1px  black solid;
+    border: 1px  white solid;
     border-radius: 10px; 
     font-size: 120%;
     font-style: italic;
@@ -15,30 +16,37 @@ aside {
     padding: 5px;
     margin: 8px 8px 8px 8px;
 }
-.byline {
-    font-style: italic;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 80%;
-    text-align: center;
+body {
+    background-color: black;
 }
 button {
     background-color:white;
-    border: 4px black outset;
+    border: 4px whitesmoke outset;
     color: black;
     text-align: center;    
     font-size: 16px;
     padding: 6px;
     border-radius: 20px;
+    margin: 6px;
 }
 button:hover {
     background-color:  rgb(208, 242, 255);
 }
+.byline {
+    color: white;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    text-align: center;
+}
 figure a {
+    color:  rgb(208, 242, 255);
     font-family: "Courier New";
     font-size: 150%;
     text-align: center;
 }
 figure.imagecenter {
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     display: block;
     margin-left: auto;
@@ -47,23 +55,25 @@ figure.imagecenter {
     padding: 8px 8px 8px 8px;
 }
 figure.imageright {
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     float: right;
     text-align: center;
 }
 figure.imageleft {
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     float: left;
     text-align: justify;
 }
 footer {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 footer a {
-    color: rgb(208, 242, 255);
+    color: blue;
     font-family: "Courier New";
     font-size: 120%;
 }
@@ -74,39 +84,46 @@ footer ul {
     
 }
 footer li {
+    color: white;
     display: inline;
     padding: 8px 8px 8px 8px;    
 }
 h1 {
+    color: white;
     font-family: "Courier New";
     font-size: 3em;
 }
 h2 {
+    color: white;
     font-family: "Courier New";
     text-align: center;
 }
 h3 {
+    color: white;
     font-family: "Courier New";
 }
 header {
-    background-color: white;
-    border: 6px black solid;
+    background-color: black;
+    border: 6px white solid;
     text-align: center;
     padding: 8px;
 }
 header p {
     font-weight: bold;
-    color: black;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 main {
-    background-color: white;
+    background-color: black;
+    border: 6px white solid;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 120%;
     text-align: justify;
+    color: white;
+    padding: 8px;
 }
 nav.navtop {        
-    background-color: black;
+    background-color: white;
     padding: 10px;
     margin-top: 8px;
 }
@@ -115,15 +132,15 @@ nav.navtop li {
     padding: 8px;    
 }
 nav.navleft {
-    background-color: black;
+    background-color: white;
     padding: 10px;
     margin: 8px 8px 8px 0px;
     float: left;
-    color: white;
+    color: black;
     font-family: "Courier New";
 }
 nav a {
-    color: rgb(208, 242, 255);
+    color: blue;
     font-family: "Courier New";
     font-size: 120%;
 }
@@ -132,6 +149,7 @@ nav ul {
     margin: 0;
     padding: 0;
 }
-nav a:hover {
-    color: white;
+nav a:hover,
+footer a:hover {
+    color: hotpink;
 }
