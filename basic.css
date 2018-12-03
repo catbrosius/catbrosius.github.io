@@ -1,9 +1,9 @@
 body {
-    background-color:  rgb(53, 47, 87); 
+    background-color:  rgb(40, 47, 85); 
 }
 button {
     background-color: rgb(187, 184, 190);
-    border: 6px rgb(53, 47, 87) outset;
+    border: 6px  rgb(40, 47, 85) outset;
     color: black;
     text-align: center;    
     font-size: 16px;
@@ -11,7 +11,7 @@ button {
     border-radius: 20px;
 }
 button:hover {
-    background-color: rgb(220, 248, 255);
+    background-color: white;
 }
 .byline {
     font-style: italic;
@@ -36,17 +36,20 @@ header {
     text-align: center;  
     font-family: Arial, Helvetica, sans-serif; 
     color: rgb(53, 47, 87);
+    border-radius: 10px;
 }
 main {
-    background-color: white;
+    background-color: rgb(233, 250, 255);
     color: black;
     padding: 8px;
+    border-radius: 10px;
 }
 nav {        
     background-color:   rgb(255, 214, 227);
     border: 1px  rgb(53, 47, 87) solid;
     padding: 8px;
     margin: -1px 0px 0px 0px;
+    border-radius: 10px;
 }
 
 nav ul {
