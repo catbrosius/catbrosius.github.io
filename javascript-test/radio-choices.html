@@ -8,6 +8,7 @@
     <title>Radio Choices</title>
     <link rel="stylesheet" href="../styles/buttonstyles.css">
     <link rel="stylesheet" href="../styles01.css">
+    <script src="radio-choices.js"></script>
 </head>
 
 <body>
@@ -15,6 +16,40 @@
         <h1>Radio Choices</h1>
     </header>
     <main>
+        <section>
+            <fieldset>
+                <legend>The User Selection</legend>
+                <p><b>User choice</b>: <span id="user-choice">Unknown</span></p>
+            </fieldset>
+        </section>
+
+        <section id="form-section">
+            <fieldset>
+                <legend>Our Form</legend>
+                <!-- OUR FORM GOES HERE -->
+            </fieldset>
+        </section>
+
+        <form id="sort-type" action="goThere">
+                <input type="radio" id="blue" name="sorter" value="Blue" checked>
+                <label for="blue">Blue</label>
+            
+                <input type="radio" id="green" name="sorter" value="Green">
+                <label for="green">Green</label>
+
+                <input type="radio" id="red" name="sorter" value="Red">
+                <label for="red">Red</label>
+
+                <input type="radio" id="yellow" name="sorter" value="Yellow">
+                <label for="yellow">Yellow</label>
+
+                <input type="radio" id="purple" name="sorter" value="Purple">
+                <label for="purple">Purple</label>
+
+                <div>
+                <input class="btn-padding" type="submit" value="Submit">
+                </div>
+            </form>
 
     </main>
 

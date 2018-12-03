@@ -47,3 +47,19 @@ nav li {
     display: inline;
     padding: 8px;    
 }
+.blueBackground {
+    background-color: aqua;
+}
+
+.greenBackground {
+    background-color: green;
+}   
+.redBackground {
+    background-color: red;
+}
+.yellowBackground {
+    background-color: yellow;
+}
+.purpleBackground {
+    background-color: purple;
+}
