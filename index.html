@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Home</title>
-    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
     <link href="basic.css" rel="alternate stylesheet" type="text/css" id="basic">
     <link href="styles01.css" rel="stylesheet" type="text/css" id="default">
     <script src="lib/cssswap.js"></script>
@@ -41,8 +41,26 @@
 
         </ul>
 
-        <button id="appearanceAction" type="button">Page Appearance: Lt Blue & Navy</button>
-        <button id="appearanceActionDefault" type="button">Page Appearance: White & Lavender</button>
+        <section>
+            <fieldset>
+                <legend>Appearance</legend>
+                <form id="sort-type" action="goThere">
+                    <input type="radio" id="basic" name="sorter" value="Basic" checked>
+                    <label for="basic">Navy & Light Blue</label>
+
+                    <input type="radio" id="default" name="sorter" value="Default">
+                    <label for="default">White & Lavender</label>
+                    <div>
+                        <input class="btn-padding" type="submit" value="Submit">
+                    </div>
+                </form>
+            </fieldset>
+        </section>
+
+        <!--Old Option--2 buttons to change stylesheets-->
+
+        <!--<button id="appearanceAction" type="button">Page Appearance: Lt Blue & Navy</button>
+        <button id="appearanceActionDefault" type="button">Page Appearance: White & Lavender</button>-->
 
     </main>
     <footer>

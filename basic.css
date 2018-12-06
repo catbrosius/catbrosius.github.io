@@ -1,7 +1,8 @@
 body {
     background-color:  rgb(40, 47, 85); 
 }
-button {
+button,
+input.btn-padding {
     background-color: rgb(187, 184, 190);
     border: 6px  rgb(40, 47, 85) outset;
     color: black;
@@ -10,7 +11,8 @@ button {
     padding: 6px;
     border-radius: 20px;
 }
-button:hover {
+button:hover,
+input.btn-padding:hover {
     background-color: white;
 }
 .byline {

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>About</title>
-    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="favicon.png" />
     <link href="theme/themestyles02.css" rel="alternate stylesheet" type="text/css" id="basic">
     <link href="theme/themestyles.css" rel="stylesheet" type="text/css" id="default">
     <script src="lib/cssswap.js"></script>
@@ -78,8 +78,21 @@
             site are fine for screen viewing but are unfortunately not the best quality for printing.
         </p>
 
-        <button id="appearanceAction" type="button">Black Background</button>
-        <button id="appearanceActionDefault" type="button">White Background</button>
+        <section>
+            <fieldset>
+                <legend>Appearance</legend>
+                <form id="sort-type" action="goThere">
+                    <input type="radio" id="basic" name="sorter" value="Basic" checked>
+                    <label for="basic">Black Background</label>
+
+                    <input type="radio" id="default" name="sorter" value="Default">
+                    <label for="default">White Background</label>
+                    <div>
+                        <input class="btn-padding" type="submit" value="Submit">
+                    </div>
+                </form>
+            </fieldset>
+        </section>
 
     </main>
 

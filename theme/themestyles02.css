@@ -19,7 +19,8 @@ aside {
 body {
     background-color: black;
 }
-button {
+button,
+input.btn-padding {
     background-color:white;
     border: 4px whitesmoke outset;
     color: black;
@@ -29,7 +30,8 @@ button {
     border-radius: 20px;
     margin: 6px;
 }
-button:hover {
+button:hover,
+input.btn-padding:hover {
     background-color:  rgb(208, 242, 255);
 }
 .byline {
@@ -98,7 +100,8 @@ h2 {
     font-family: "Courier New";
     text-align: center;
 }
-h3 {
+h3,
+legend {
     color: white;
     font-family: "Courier New";
 }
@@ -112,6 +115,9 @@ header p {
     font-weight: bold;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+}
+img {
+    max-width: 95%;
 }
 main {
     background-color: black;

@@ -30,33 +30,50 @@
     <main>
         <p>Click the links below to see more of my photos.</p>
         <figure class="imagecenter">
-            <figcaption><a href="hawaii/hawaii.html">Hawaii</a></figcaption><a href="hawaii/hawaii.html"> <img src="hawaii/sunset.JPG" alt="Sunset"></a>
+            <figcaption><a href="hawaii/hawaii.html">Hawaii</a></figcaption><a href="hawaii/hawaii.html"> <img src="hawaii/sunset.JPG"
+                    alt="Sunset"></a>
             <figcaption>Waikiki Sunset</figcaption>
         </figure>
 
         <figure class="imagecenter">
-            <figcaption><a href="italy/italy.html">Italy</a></figcaption><a href="italy/italy.html"><img src="italy/positano.JPG" alt="Positano, Italy"></a>
+            <figcaption><a href="italy/italy.html">Italy</a></figcaption><a href="italy/italy.html"><img src="italy/positano.JPG"
+                    alt="Positano, Italy"></a>
             <figcaption>Positano, Italy</figcaption>
         </figure>
 
         <figure class="imagecenter">
-            <figcaption><a href="newyork/newyork.html">New York</a></figcaption><a href="newyork/newyork.html"><img src="newyork/licskyline.JPG" alt="NYC Skyline"></a>
+            <figcaption><a href="newyork/newyork.html">New York</a></figcaption><a href="newyork/newyork.html"><img src="newyork/licskyline.JPG"
+                    alt="NYC Skyline"></a>
             <figcaption>NYC skyline, view from Long Island City</figcaption>
         </figure>
 
         <figure class="imagecenter">
-            <figcaption><a href="paris/paris.html">Paris</a></figcaption><a href="paris/paris.html"><img src="paris/museedorsay.JPG" alt="Paris, France"></a>
+            <figcaption><a href="paris/paris.html">Paris</a></figcaption><a href="paris/paris.html"><img src="paris/museedorsay.JPG"
+                    alt="Paris, France"></a>
             <figcaption>Musee d'Orsay, Paris, France</figcaption>
         </figure>
 
         <figure class="imagecenter">
-            <figcaption><a href="switzerland/switzerland.html"></a>Switzerland</a></figcaption><a href="switzerland/switzerland.html"><img src="switzerland/lucerne.JPG"
-                alt="Lake Lucerne, Switzerland"></a>
+            <figcaption><a href="switzerland/switzerland.html">Switzerland</a></figcaption><a href="switzerland/switzerland.html"><img
+                    src="switzerland/lucerne.JPG" alt="Lake Lucerne, Switzerland"></a>
             <figcaption>Lake Lucerne, Switzerland</figcaption>
         </figure>
 
-        <button id="appearanceAction" type="button">Black Background</button>
-        <button id="appearanceActionDefault" type="button">White Background</button>
+        <section>
+            <fieldset>
+                <legend>Appearance</legend>
+                <form id="sort-type" action="goThere">
+                    <input type="radio" id="basic" name="sorter" value="Basic" checked>
+                    <label for="basic">Black Background</label>
+
+                    <input type="radio" id="default" name="sorter" value="Default">
+                    <label for="default">White Background</label>
+                    <div>
+                        <input class="btn-padding" type="submit" value="Submit">
+                    </div>
+                </form>
+            </fieldset>
+        </section>
 
 
     </main>

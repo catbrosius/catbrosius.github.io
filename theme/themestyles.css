@@ -21,7 +21,8 @@ aside {
     font-size: 80%;
     text-align: center;
 }
-button {
+button,
+input.btn-padding {
     background-color:white;
     border: 4px black outset;
     color: black;
@@ -30,7 +31,8 @@ button {
     padding: 6px;
     border-radius: 20px;
 }
-button:hover {
+button:hover,
+input.btn-padding:hover {
     background-color:  rgb(208, 242, 255);
 }
 figure a {
@@ -85,7 +87,8 @@ h2 {
     font-family: "Courier New";
     text-align: center;
 }
-h3 {
+h3,
+legend {
     font-family: "Courier New";
 }
 header {
@@ -98,6 +101,9 @@ header p {
     font-weight: bold;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
+}
+img {
+    max-width: 95%;
 }
 main {
     background-color: white;
